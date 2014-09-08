@@ -1,4 +1,0 @@
-[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
-[0m[[0mdebug[0m] [0m	(/home/wp/workspace/hammal/src/main/resources/hdfs-site.xml,/home/wp/workspace/hammal/target/scala-2.10/classes/hdfs-site.xml)[0m
-[0m[[0mdebug[0m] [0m	(/home/wp/workspace/hammal/src/main/resources/core-site.xml,/home/wp/workspace/hammal/target/scala-2.10/classes/core-site.xml)[0m
-[0m[[0mdebug[0m] [0m	(/home/wp/workspace/hammal/src/main/resources/application.conf,/home/wp/workspace/hammal/target/scala-2.10/classes/application.conf)[0m
