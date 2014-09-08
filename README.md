@@ -8,6 +8,7 @@ hammal
 基于这样的思想，京东开发了plumber系统，taobao推出了DataX系统，前者基于clojure，后者基于java开发，hammal 则采用了scala，通过基于scala的ringbuffer,akka构建一个
 异构数据快速交换系统。
 
+![](https://github.com/yfwangpeng/hammal/blob/master/img/hammal.png)
 
 ###关于项目
 #####运行环境
