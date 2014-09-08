@@ -1,0 +1,22 @@
+eclipse
+sbt
+exit
+clean
+compile
+exit
+clean
+compile
+eclipse
+exit
+clean
+compile
+run
+run main.Test
+exit
+eclipse
+celan
+clean
+compile
+clean
+compile
+package

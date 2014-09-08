@@ -1,0 +1,809 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="hammal_2.10"
+		revision="1.0"
+		conf="test"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20140908161842"/>
+	<dependencies>
+		<module organisation="org.scalatest" name="scalatest_2.10">
+			<revision name="1.9.2" status="release" pubdate="20130911001436" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalatest.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="57">
+				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="4592" time="0" location="/home/wp/.ivy2/cache/org.scalatest/scalatest_2.10/ivy-1.9.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/1.9.2/scalatest_2.10-1.9.2.pom"/>
+				<caller organisation="default" name="hammal_2.10" conf="test, compile, runtime" rev="1.9.2" rev-constraint-default="1.9.2" rev-constraint-dynamic="1.9.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scalatest_2.10" type="jar" ext="jar" status="no" details="" size="3180314" time="0" location="/home/wp/.ivy2/cache/org.scalatest/scalatest_2.10/jars/scalatest_2.10-1.9.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/1.9.2/scalatest_2.10-1.9.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalaj" name="scalaj-http_2.10">
+			<revision name="0.3.16" status="release" pubdate="20140710233334" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/scalaj/scalaj-http" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="56">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2860" time="0" location="/home/wp/.ivy2/cache/org.scalaj/scalaj-http_2.10/ivy-0.3.16.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scalaj/scalaj-http_2.10/0.3.16/scalaj-http_2.10-0.3.16.pom"/>
+				<caller organisation="default" name="hammal_2.10" conf="test, compile, runtime" rev="0.3.16" rev-constraint-default="0.3.16" rev-constraint-dynamic="0.3.16" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scalaj-http_2.10" type="jar" ext="jar" status="no" details="" size="97045" time="0" location="/home/wp/.ivy2/cache/org.scalaj/scalaj-http_2.10/jars/scalaj-http_2.10-0.3.16.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scalaj/scalaj-http_2.10/0.3.16/scalaj-http_2.10-0.3.16.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-actor_2.10">
+			<revision name="2.2.3" status="release" pubdate="20131023163548" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="54">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2638" time="0" location="/home/wp/.ivy2/cache/com.typesafe.akka/akka-actor_2.10/ivy-2.2.3.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.10/2.2.3/akka-actor_2.10-2.2.3.pom"/>
+				<caller organisation="default" name="hammal_2.10" conf="test, compile, runtime" rev="2.2.3" rev-constraint-default="2.2.3" rev-constraint-dynamic="2.2.3" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="akka-actor_2.10" type="jar" ext="jar" status="no" details="" size="2669443" time="0" location="/home/wp/.ivy2/cache/com.typesafe.akka/akka-actor_2.10/jars/akka-actor_2.10-2.2.3.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.10/2.2.3/akka-actor_2.10-2.2.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="config">
+			<revision name="1.0.2" status="release" pubdate="20130703210814" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/config" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master, default(compile)" position="55">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2723" time="0" location="/home/wp/.ivy2/cache/com.typesafe/config/ivy-1.0.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/typesafe/config/1.0.2/config-1.0.2.pom"/>
+				<caller organisation="default" name="hammal_2.10" conf="test, compile, runtime" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="1.0"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor_2.10" conf="default, compile, runtime, master" rev="1.0.2" rev-constraint-default="1.0.2" rev-constraint-dynamic="1.0.2" callerrev="2.2.3"/>
+				<artifacts>
+					<artifact name="config" type="bundle" ext="jar" status="no" details="" size="187497" time="0" location="/home/wp/.ivy2/cache/com.typesafe/config/bundles/config-1.0.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/typesafe/config/1.0.2/config-1.0.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.0.0" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="default(compile), default, compile, runtime, master" position="-1">
+				<evicted-by rev="1.0.2"/>
+				<caller organisation="default" name="hammal_2.10" conf="test, compile, runtime" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="1.0"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.specs2" name="specs2_2.10">
+			<revision name="2.3.12" status="release" pubdate="20140513091229" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://specs2.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="33">
+				<license name="MIT-style" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="4278" time="0" location="/home/wp/.ivy2/cache/org.specs2/specs2_2.10/ivy-2.3.12.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/specs2/specs2_2.10/2.3.12/specs2_2.10-2.3.12.pom"/>
+				<caller organisation="default" name="hammal_2.10" conf="test, compile, runtime" rev="2.3.12" rev-constraint-default="2.3.12" rev-constraint-dynamic="2.3.12" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="specs2_2.10" type="jar" ext="jar" status="no" details="" size="8928028" time="0" location="/home/wp/.ivy2/cache/org.specs2/specs2_2.10/jars/specs2_2.10-2.3.12.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/specs2/specs2_2.10/2.3.12/specs2_2.10-2.3.12.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.specs2" name="classycle">
+			<revision name="1.4.3" status="release" pubdate="20140209200639" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://classycle.sourceforge.net/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="53">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2779" time="0" location="/home/wp/.ivy2/cache/org.specs2/classycle/ivy-1.4.3.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/specs2/classycle/1.4.3/classycle-1.4.3.pom"/>
+				<caller organisation="org.specs2" name="specs2_2.10" conf="default, compile, runtime, master" rev="1.4.3" rev-constraint-default="1.4.3" rev-constraint-dynamic="1.4.3" callerrev="2.3.12"/>
+				<artifacts>
+					<artifact name="classycle" type="jar" ext="jar" status="no" details="" size="111466" time="0" location="/home/wp/.ivy2/cache/org.specs2/classycle/jars/classycle-1.4.3.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/specs2/classycle/1.4.3/classycle-1.4.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="junit" name="junit">
+			<revision name="4.11" status="release" pubdate="20121115032147" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://junit.org" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="52">
+				<license name="Common Public License Version 1.0" url="http://www.opensource.org/licenses/cpl1.0.txt"/>
+				<metadata-artifact status="no" details="" size="2765" time="0" location="/home/wp/.ivy2/cache/junit/junit/ivy-4.11.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/junit/junit/4.11/junit-4.11.pom"/>
+				<caller organisation="org.specs2" name="specs2_2.10" conf="default, compile, runtime, master" rev="4.11" rev-constraint-default="4.11" rev-constraint-dynamic="4.11" callerrev="2.3.12"/>
+				<artifacts>
+					<artifact name="junit" type="jar" ext="jar" status="no" details="" size="245039" time="0" location="/home/wp/.ivy2/cache/junit/junit/jars/junit-4.11.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/junit/junit/4.11/junit-4.11.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.mockito" name="mockito-core">
+			<revision name="1.9.5" status="release" pubdate="20121014180649" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.mockito.org" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="50">
+				<license name="The MIT License" url="http://code.google.com/p/mockito/wiki/License"/>
+				<metadata-artifact status="no" details="" size="2656" time="0" location="/home/wp/.ivy2/cache/org.mockito/mockito-core/ivy-1.9.5.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/mockito/mockito-core/1.9.5/mockito-core-1.9.5.pom"/>
+				<caller organisation="org.specs2" name="specs2_2.10" conf="default, compile, runtime, master" rev="1.9.5" rev-constraint-default="1.9.5" rev-constraint-dynamic="1.9.5" callerrev="2.3.12"/>
+				<artifacts>
+					<artifact name="mockito-core" type="jar" ext="jar" status="no" details="" size="1500011" time="0" location="/home/wp/.ivy2/cache/org.mockito/mockito-core/jars/mockito-core-1.9.5.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/mockito/mockito-core/1.9.5/mockito-core-1.9.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.objenesis" name="objenesis">
+			<revision name="1.0" status="release" pubdate="20070517063006" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://objenesis.googlecode.com/svn/docs/index.html" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="51">
+				<license name="MIT License" url="http://objenesis.googlecode.com/svn/docs/license.html"/>
+				<metadata-artifact status="no" details="" size="2392" time="0" location="/home/wp/.ivy2/cache/org.objenesis/objenesis/ivy-1.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/objenesis/objenesis/1.0/objenesis-1.0.pom"/>
+				<caller organisation="org.mockito" name="mockito-core" conf="compile, runtime" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="1.9.5"/>
+				<artifacts>
+					<artifact name="objenesis" type="jar" ext="jar" status="no" details="" size="28569" time="0" location="/home/wp/.ivy2/cache/org.objenesis/objenesis/jars/objenesis-1.0.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/objenesis/objenesis/1.0/objenesis-1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.hamcrest" name="hamcrest-core">
+			<revision name="1.3" status="release" pubdate="20120710050802" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="49">
+				<metadata-artifact status="no" details="" size="2397" time="0" location="/home/wp/.ivy2/cache/org.hamcrest/hamcrest-core/ivy-1.3.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.pom"/>
+				<caller organisation="org.specs2" name="specs2_2.10" conf="default, compile, runtime, master" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="2.3.12"/>
+				<caller organisation="junit" name="junit" conf="compile, runtime" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="4.11"/>
+				<caller organisation="org.mockito" name="mockito-core" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.9.5"/>
+				<artifacts>
+					<artifact name="hamcrest-core" type="jar" ext="jar" status="no" details="" size="45024" time="0" location="/home/wp/.ivy2/cache/org.hamcrest/hamcrest-core/jars/hamcrest-core-1.3.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.1" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="-1">
+				<evicted-by rev="1.3"/>
+				<caller organisation="org.mockito" name="mockito-core" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.9.5"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalacheck" name="scalacheck_2.10">
+			<revision name="1.11.3" status="release" pubdate="20140406063725" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalacheck.org" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="47">
+				<license name="BSD-style" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="2659" time="0" location="/home/wp/.ivy2/cache/org.scalacheck/scalacheck_2.10/ivy-1.11.3.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scalacheck/scalacheck_2.10/1.11.3/scalacheck_2.10-1.11.3.pom"/>
+				<caller organisation="org.specs2" name="specs2_2.10" conf="default, compile, runtime, master" rev="1.11.3" rev-constraint-default="1.11.3" rev-constraint-dynamic="1.11.3" callerrev="2.3.12"/>
+				<artifacts>
+					<artifact name="scalacheck_2.10" type="jar" ext="jar" status="no" details="" size="884553" time="0" location="/home/wp/.ivy2/cache/org.scalacheck/scalacheck_2.10/jars/scalacheck_2.10-1.11.3.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scalacheck/scalacheck_2.10/1.11.3/scalacheck_2.10-1.11.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-sbt" name="test-interface">
+			<revision name="1.0" status="release" pubdate="20130629064435" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-sbt.org" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="48">
+				<license name="BSD" url="https://github.com/sbt/test-interface/blob/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="2589" time="0" location="/home/wp/.ivy2/cache/org.scala-sbt/test-interface/ivy-1.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.pom"/>
+				<caller organisation="org.scalacheck" name="scalacheck_2.10" conf="compile, runtime" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="1.11.3"/>
+				<artifacts>
+					<artifact name="test-interface" type="jar" ext="jar" status="no" details="" size="14755" time="0" location="/home/wp/.ivy2/cache/org.scala-sbt/test-interface/jars/test-interface-1.0.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalaz" name="scalaz-concurrent_2.10">
+			<revision name="7.0.6" status="release" pubdate="20140305142435" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalaz.org" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="45">
+				<license name="BSD-style" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="2812" time="0" location="/home/wp/.ivy2/cache/org.scalaz/scalaz-concurrent_2.10/ivy-7.0.6.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scalaz/scalaz-concurrent_2.10/7.0.6/scalaz-concurrent_2.10-7.0.6.pom"/>
+				<caller organisation="org.specs2" name="specs2_2.10" conf="default, compile, runtime, master" rev="7.0.6" rev-constraint-default="7.0.6" rev-constraint-dynamic="7.0.6" callerrev="2.3.12"/>
+				<artifacts>
+					<artifact name="scalaz-concurrent_2.10" type="bundle" ext="jar" status="no" details="" size="314707" time="0" location="/home/wp/.ivy2/cache/org.scalaz/scalaz-concurrent_2.10/bundles/scalaz-concurrent_2.10-7.0.6.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scalaz/scalaz-concurrent_2.10/7.0.6/scalaz-concurrent_2.10-7.0.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalaz" name="scalaz-effect_2.10">
+			<revision name="7.0.6" status="release" pubdate="20140305142346" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalaz.org" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="46">
+				<license name="BSD-style" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="2659" time="0" location="/home/wp/.ivy2/cache/org.scalaz/scalaz-effect_2.10/ivy-7.0.6.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scalaz/scalaz-effect_2.10/7.0.6/scalaz-effect_2.10-7.0.6.pom"/>
+				<caller organisation="org.scalaz" name="scalaz-concurrent_2.10" conf="compile, runtime" rev="7.0.6" rev-constraint-default="7.0.6" rev-constraint-dynamic="7.0.6" callerrev="7.0.6"/>
+				<artifacts>
+					<artifact name="scalaz-effect_2.10" type="bundle" ext="jar" status="no" details="" size="429657" time="0" location="/home/wp/.ivy2/cache/org.scalaz/scalaz-effect_2.10/bundles/scalaz-effect_2.10-7.0.6.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scalaz/scalaz-effect_2.10/7.0.6/scalaz-effect_2.10-7.0.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalaz" name="scalaz-core_2.10">
+			<revision name="7.0.6" status="release" pubdate="20140305142313" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalaz.org" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="44">
+				<license name="BSD-style" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="2514" time="0" location="/home/wp/.ivy2/cache/org.scalaz/scalaz-core_2.10/ivy-7.0.6.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.10/7.0.6/scalaz-core_2.10-7.0.6.pom"/>
+				<caller organisation="org.scalaz" name="scalaz-concurrent_2.10" conf="compile, runtime" rev="7.0.6" rev-constraint-default="7.0.6" rev-constraint-dynamic="7.0.6" callerrev="7.0.6"/>
+				<caller organisation="org.scalaz" name="scalaz-effect_2.10" conf="compile, runtime" rev="7.0.6" rev-constraint-default="7.0.6" rev-constraint-dynamic="7.0.6" callerrev="7.0.6"/>
+				<caller organisation="org.specs2" name="specs2_2.10" conf="default, compile, runtime, master" rev="7.0.6" rev-constraint-default="7.0.6" rev-constraint-dynamic="7.0.6" callerrev="2.3.12"/>
+				<artifacts>
+					<artifact name="scalaz-core_2.10" type="bundle" ext="jar" status="no" details="" size="9223035" time="0" location="/home/wp/.ivy2/cache/org.scalaz/scalaz-core_2.10/bundles/scalaz-core_2.10-7.0.6.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.10/7.0.6/scalaz-core_2.10-7.0.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.pegdown" name="pegdown">
+			<revision name="1.2.1" status="release" pubdate="20121128005205" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://pegdown.org" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="37">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2769" time="0" location="/home/wp/.ivy2/cache/org.pegdown/pegdown/ivy-1.2.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/pegdown/pegdown/1.2.1/pegdown-1.2.1.pom"/>
+				<caller organisation="org.specs2" name="specs2_2.10" conf="default, compile, runtime, master" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="2.3.12"/>
+				<artifacts>
+					<artifact name="pegdown" type="jar" ext="jar" status="no" details="" size="58609" time="0" location="/home/wp/.ivy2/cache/org.pegdown/pegdown/jars/pegdown-1.2.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/pegdown/pegdown/1.2.1/pegdown-1.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.parboiled" name="parboiled-java">
+			<revision name="1.1.4" status="release" pubdate="20121128002702" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://parboiled.org" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="38">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3316" time="0" location="/home/wp/.ivy2/cache/org.parboiled/parboiled-java/ivy-1.1.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/parboiled/parboiled-java/1.1.4/parboiled-java-1.1.4.pom"/>
+				<caller organisation="org.pegdown" name="pegdown" conf="compile, runtime" rev="1.1.4" rev-constraint-default="1.1.4" rev-constraint-dynamic="1.1.4" callerrev="1.2.1"/>
+				<artifacts>
+					<artifact name="parboiled-java" type="jar" ext="jar" status="no" details="" size="73180" time="0" location="/home/wp/.ivy2/cache/org.parboiled/parboiled-java/jars/parboiled-java-1.1.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/parboiled/parboiled-java/1.1.4/parboiled-java-1.1.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.ow2.asm" name="asm-util">
+			<revision name="4.1" status="release" pubdate="20121014233900" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="43">
+				<metadata-artifact status="no" details="" size="4374" time="0" location="/home/wp/.ivy2/cache/org.ow2.asm/asm-util/ivy-4.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/ow2/asm/asm-util/4.1/asm-util-4.1.pom"/>
+				<caller organisation="org.parboiled" name="parboiled-java" conf="compile, runtime" rev="4.1" rev-constraint-default="4.1" rev-constraint-dynamic="4.1" callerrev="1.1.4"/>
+				<artifacts>
+					<artifact name="asm-util" type="jar" ext="jar" status="no" details="" size="37599" time="0" location="/home/wp/.ivy2/cache/org.ow2.asm/asm-util/jars/asm-util-4.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/ow2/asm/asm-util/4.1/asm-util-4.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.ow2.asm" name="asm-analysis">
+			<revision name="4.1" status="release" pubdate="20121014233804" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="42">
+				<metadata-artifact status="no" details="" size="4382" time="0" location="/home/wp/.ivy2/cache/org.ow2.asm/asm-analysis/ivy-4.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/4.1/asm-analysis-4.1.pom"/>
+				<caller organisation="org.parboiled" name="parboiled-java" conf="compile, runtime" rev="4.1" rev-constraint-default="4.1" rev-constraint-dynamic="4.1" callerrev="1.1.4"/>
+				<artifacts>
+					<artifact name="asm-analysis" type="jar" ext="jar" status="no" details="" size="19812" time="0" location="/home/wp/.ivy2/cache/org.ow2.asm/asm-analysis/jars/asm-analysis-4.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/4.1/asm-analysis-4.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.ow2.asm" name="asm-tree">
+			<revision name="4.1" status="release" pubdate="20121014233839" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="41">
+				<metadata-artifact status="no" details="" size="4369" time="0" location="/home/wp/.ivy2/cache/org.ow2.asm/asm-tree/ivy-4.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/ow2/asm/asm-tree/4.1/asm-tree-4.1.pom"/>
+				<caller organisation="org.ow2.asm" name="asm-analysis" conf="compile, runtime" rev="4.1" rev-constraint-default="4.1" rev-constraint-dynamic="4.1" callerrev="4.1"/>
+				<caller organisation="org.ow2.asm" name="asm-util" conf="compile, runtime" rev="4.1" rev-constraint-default="4.1" rev-constraint-dynamic="4.1" callerrev="4.1"/>
+				<caller organisation="org.parboiled" name="parboiled-java" conf="compile, runtime" rev="4.1" rev-constraint-default="4.1" rev-constraint-dynamic="4.1" callerrev="1.1.4"/>
+				<artifacts>
+					<artifact name="asm-tree" type="jar" ext="jar" status="no" details="" size="22162" time="0" location="/home/wp/.ivy2/cache/org.ow2.asm/asm-tree/jars/asm-tree-4.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/ow2/asm/asm-tree/4.1/asm-tree-4.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.ow2.asm" name="asm">
+			<revision name="4.1" status="release" pubdate="20121014233745" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="40">
+				<metadata-artifact status="no" details="" size="3744" time="0" location="/home/wp/.ivy2/cache/org.ow2.asm/asm/ivy-4.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/ow2/asm/asm/4.1/asm-4.1.pom"/>
+				<caller organisation="org.parboiled" name="parboiled-java" conf="compile, runtime" rev="4.1" rev-constraint-default="4.1" rev-constraint-dynamic="4.1" callerrev="1.1.4"/>
+				<caller organisation="org.ow2.asm" name="asm-tree" conf="compile, runtime" rev="4.1" rev-constraint-default="4.1" rev-constraint-dynamic="4.1" callerrev="4.1"/>
+				<artifacts>
+					<artifact name="asm" type="jar" ext="jar" status="no" details="" size="47359" time="0" location="/home/wp/.ivy2/cache/org.ow2.asm/asm/jars/asm-4.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/ow2/asm/asm/4.1/asm-4.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.parboiled" name="parboiled-core">
+			<revision name="1.1.4" status="release" pubdate="20121128002718" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://parboiled.org" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="39">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2657" time="0" location="/home/wp/.ivy2/cache/org.parboiled/parboiled-core/ivy-1.1.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/parboiled/parboiled-core/1.1.4/parboiled-core-1.1.4.pom"/>
+				<caller organisation="org.parboiled" name="parboiled-java" conf="compile, runtime" rev="1.1.4" rev-constraint-default="1.1.4" rev-constraint-dynamic="1.1.4" callerrev="1.1.4"/>
+				<artifacts>
+					<artifact name="parboiled-core" type="jar" ext="jar" status="no" details="" size="184943" time="0" location="/home/wp/.ivy2/cache/org.parboiled/parboiled-core/jars/parboiled-core-1.1.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/parboiled/parboiled-core/1.1.4/parboiled-core-1.1.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalamacros" name="quasiquotes_2.10">
+			<revision name="2.0.0-M7" status="release" pubdate="20140404040222" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/scalamacros/paradise" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="36">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html"/>
+				<metadata-artifact status="no" details="" size="2733" time="0" location="/home/wp/.ivy2/cache/org.scalamacros/quasiquotes_2.10/ivy-2.0.0-M7.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scalamacros/quasiquotes_2.10/2.0.0-M7/quasiquotes_2.10-2.0.0-M7.pom"/>
+				<caller organisation="org.specs2" name="specs2_2.10" conf="default, compile, runtime, master" rev="2.0.0-M7" rev-constraint-default="2.0.0-M7" rev-constraint-dynamic="2.0.0-M7" callerrev="2.3.12"/>
+				<artifacts>
+					<artifact name="quasiquotes_2.10" type="jar" ext="jar" status="no" details="" size="721002" time="0" location="/home/wp/.ivy2/cache/org.scalamacros/quasiquotes_2.10/jars/quasiquotes_2.10-2.0.0-M7.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scalamacros/quasiquotes_2.10/2.0.0-M7/quasiquotes_2.10-2.0.0-M7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-compiler">
+			<revision name="2.10.4" status="release" pubdate="20140319054738" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="34">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html    "/>
+				<metadata-artifact status="no" details="" size="2809" time="0" location="/home/wp/.ivy2/cache/org.scala-lang/scala-compiler/ivy-2.10.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.4/scala-compiler-2.10.4.pom"/>
+				<caller organisation="org.specs2" name="specs2_2.10" conf="default, compile, runtime, master" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="2.3.12"/>
+				<artifacts>
+					<artifact name="scala-compiler" type="jar" ext="jar" status="no" details="" size="14445780" time="0" location="/home/wp/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.10.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.4/scala-compiler-2.10.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.10.4" status="release" pubdate="20140319054707" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.4/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master, default(compile)" position="35">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html    "/>
+				<metadata-artifact status="no" details="" size="2647" time="0" location="/home/wp/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.10.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.4/scala-reflect-2.10.4.pom"/>
+				<caller organisation="default" name="hammal_2.10" conf="test, compile, runtime" rev="2.10.3" rev-constraint-default="2.10.3" rev-constraint-dynamic="2.10.3" callerrev="1.0"/>
+				<caller organisation="org.scalamacros" name="quasiquotes_2.10" conf="compile, runtime" rev="2.10.2" rev-constraint-default="2.10.2" rev-constraint-dynamic="2.10.2" callerrev="2.0.0-M7"/>
+				<caller organisation="org.scala-lang" name="scala-compiler" conf="compile, runtime" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="2.10.4"/>
+				<caller organisation="org.specs2" name="specs2_2.10" conf="default, compile, runtime, master" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="2.3.12"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="jar" ext="jar" status="no" details="" size="3203471" time="0" location="/home/wp/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.10.4.jar">
+						<origin-location is-local="false" location="UNKNOWN"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.10.3" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="default(compile), default, compile, runtime, master" position="-1">
+				<evicted-by rev="2.10.4"/>
+				<caller organisation="default" name="hammal_2.10" conf="test, compile, runtime" rev="2.10.3" rev-constraint-default="2.10.3" rev-constraint-dynamic="2.10.3" callerrev="1.0"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="2.10.2" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="-1">
+				<evicted-by rev="2.10.4"/>
+				<caller organisation="org.scalamacros" name="quasiquotes_2.10" conf="compile, runtime" rev="2.10.2" rev-constraint-default="2.10.2" rev-constraint-dynamic="2.10.2" callerrev="2.0.0-M7"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lmax" name="disruptor">
+			<revision name="3.2.1" status="release" pubdate="20140310110410" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://lmax-exchange.github.com/disruptor" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="32">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2758" time="0" location="/home/wp/.ivy2/cache/com.lmax/disruptor/ivy-3.2.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/lmax/disruptor/3.2.1/disruptor-3.2.1.pom"/>
+				<caller organisation="default" name="hammal_2.10" conf="test, compile, runtime" rev="3.2.1" rev-constraint-default="3.2.1" rev-constraint-dynamic="3.2.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="disruptor" type="jar" ext="jar" status="no" details="" size="70153" time="0" location="/home/wp/.ivy2/cache/com.lmax/disruptor/jars/disruptor-3.2.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/lmax/disruptor/3.2.1/disruptor-3.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.hadoop" name="hadoop-client">
+			<revision name="1.2.1" status="release" pubdate="20130725044203" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="1">
+				<metadata-artifact status="no" details="" size="4748" time="0" location="/home/wp/.ivy2/cache/org.apache.hadoop/hadoop-client/ivy-1.2.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-client/1.2.1/hadoop-client-1.2.1.pom"/>
+				<caller organisation="default" name="hammal_2.10" conf="test, compile, runtime" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="hadoop-client" type="jar" ext="jar" status="no" details="" size="414" time="0" location="/home/wp/.ivy2/cache/org.apache.hadoop/hadoop-client/jars/hadoop-client-1.2.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-client/1.2.1/hadoop-client-1.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.hadoop" name="hadoop-core">
+			<revision name="1.2.1" status="release" pubdate="20130725044151" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="2">
+				<metadata-artifact status="no" details="" size="5371" time="0" location="/home/wp/.ivy2/cache/org.apache.hadoop/hadoop-core/ivy-1.2.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-core/1.2.1/hadoop-core-1.2.1.pom"/>
+				<caller organisation="org.apache.hadoop" name="hadoop-client" conf="default, compile, runtime, master" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="1.2.1"/>
+				<artifacts>
+					<artifact name="hadoop-core" type="jar" ext="jar" status="no" details="" size="4203713" time="0" location="/home/wp/.ivy2/cache/org.apache.hadoop/hadoop-core/jars/hadoop-core-1.2.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/hadoop/hadoop-core/1.2.1/hadoop-core-1.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.jackson" name="jackson-mapper-asl">
+			<revision name="1.8.8" status="release" pubdate="20120121092502" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jackson.codehaus.org" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="30">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2653" time="0" location="/home/wp/.ivy2/cache/org.codehaus.jackson/jackson-mapper-asl/ivy-1.8.8.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.8.8/jackson-mapper-asl-1.8.8.pom"/>
+				<caller organisation="org.codehaus.jackson" name="jackson-xc" conf="compile, runtime" rev="1.7.1" rev-constraint-default="1.7.1" rev-constraint-dynamic="1.7.1" callerrev="1.7.1"/>
+				<caller organisation="org.apache.hadoop" name="hadoop-core" conf="compile, runtime" rev="1.8.8" rev-constraint-default="1.8.8" rev-constraint-dynamic="1.8.8" callerrev="1.2.1"/>
+				<caller organisation="org.codehaus.jackson" name="jackson-jaxrs" conf="compile, runtime" rev="1.7.1" rev-constraint-default="1.7.1" rev-constraint-dynamic="1.7.1" callerrev="1.7.1"/>
+				<caller organisation="com.sun.jersey" name="jersey-json" conf="compile, runtime" rev="1.7.1" rev-constraint-default="1.7.1" rev-constraint-dynamic="1.7.1" callerrev="1.8"/>
+				<artifacts>
+					<artifact name="jackson-mapper-asl" type="jar" ext="jar" status="no" details="" size="668564" time="0" location="/home/wp/.ivy2/cache/org.codehaus.jackson/jackson-mapper-asl/jars/jackson-mapper-asl-1.8.8.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.8.8/jackson-mapper-asl-1.8.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.7.1" status="release" pubdate="20110113124238" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="http://jackson.codehaus.org" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="-1">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2653" time="0" location="/home/wp/.ivy2/cache/org.codehaus.jackson/jackson-mapper-asl/ivy-1.7.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.7.1/jackson-mapper-asl-1.7.1.pom"/>
+				<evicted-by rev="1.8.8"/>
+				<caller organisation="org.codehaus.jackson" name="jackson-xc" conf="compile, runtime" rev="1.7.1" rev-constraint-default="1.7.1" rev-constraint-dynamic="1.7.1" callerrev="1.7.1"/>
+				<caller organisation="org.apache.hadoop" name="hadoop-core" conf="compile" rev="1.7.1" rev-constraint-default="1.7.1" rev-constraint-dynamic="1.8.8" callerrev="1.2.1"/>
+				<caller organisation="org.codehaus.jackson" name="jackson-jaxrs" conf="compile, runtime" rev="1.7.1" rev-constraint-default="1.7.1" rev-constraint-dynamic="1.7.1" callerrev="1.7.1"/>
+				<caller organisation="com.sun.jersey" name="jersey-json" conf="compile, runtime" rev="1.7.1" rev-constraint-default="1.7.1" rev-constraint-dynamic="1.7.1" callerrev="1.8"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.jackson" name="jackson-core-asl">
+			<revision name="1.8.8" status="release" pubdate="20120121092420" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jackson.codehaus.org" downloaded="false" searched="false" default="false" conf="compile, master(*), compile(*), master, runtime, runtime(*)" position="31">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2437" time="0" location="/home/wp/.ivy2/cache/org.codehaus.jackson/jackson-core-asl/ivy-1.8.8.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.8.8/jackson-core-asl-1.8.8.pom"/>
+				<caller organisation="org.codehaus.jackson" name="jackson-xc" conf="compile, runtime" rev="1.7.1" rev-constraint-default="1.7.1" rev-constraint-dynamic="1.7.1" callerrev="1.7.1"/>
+				<caller organisation="org.codehaus.jackson" name="jackson-jaxrs" conf="compile, runtime" rev="1.7.1" rev-constraint-default="1.7.1" rev-constraint-dynamic="1.7.1" callerrev="1.7.1"/>
+				<caller organisation="com.sun.jersey" name="jersey-json" conf="compile, runtime" rev="1.7.1" rev-constraint-default="1.7.1" rev-constraint-dynamic="1.7.1" callerrev="1.8"/>
+				<caller organisation="org.codehaus.jackson" name="jackson-mapper-asl" conf="compile" rev="1.7.1" rev-constraint-default="1.7.1" rev-constraint-dynamic="1.7.1" callerrev="1.7.1"/>
+				<caller organisation="org.codehaus.jackson" name="jackson-mapper-asl" conf="compile" rev="1.8.8" rev-constraint-default="1.8.8" rev-constraint-dynamic="1.8.8" callerrev="1.8.8"/>
+				<artifacts>
+					<artifact name="jackson-core-asl" type="jar" ext="jar" status="no" details="" size="227500" time="0" location="/home/wp/.ivy2/cache/org.codehaus.jackson/jackson-core-asl/jars/jackson-core-asl-1.8.8.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.8.8/jackson-core-asl-1.8.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.7.1" status="release" pubdate="20110113124223" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="http://jackson.codehaus.org" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="-1">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2437" time="0" location="/home/wp/.ivy2/cache/org.codehaus.jackson/jackson-core-asl/ivy-1.7.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.7.1/jackson-core-asl-1.7.1.pom"/>
+				<evicted-by rev="1.8.8"/>
+				<caller organisation="org.codehaus.jackson" name="jackson-xc" conf="compile, runtime" rev="1.7.1" rev-constraint-default="1.7.1" rev-constraint-dynamic="1.7.1" callerrev="1.7.1"/>
+				<caller organisation="org.codehaus.jackson" name="jackson-jaxrs" conf="compile, runtime" rev="1.7.1" rev-constraint-default="1.7.1" rev-constraint-dynamic="1.7.1" callerrev="1.7.1"/>
+				<caller organisation="com.sun.jersey" name="jersey-json" conf="compile, runtime" rev="1.7.1" rev-constraint-default="1.7.1" rev-constraint-dynamic="1.7.1" callerrev="1.8"/>
+				<caller organisation="org.codehaus.jackson" name="jackson-mapper-asl" conf="compile" rev="1.7.1" rev-constraint-default="1.7.1" rev-constraint-dynamic="1.7.1" callerrev="1.7.1"/>
+				<caller organisation="org.codehaus.jackson" name="jackson-mapper-asl" conf="compile, runtime" rev="1.7.1" rev-constraint-default="1.7.1" rev-constraint-dynamic="1.8.8" callerrev="1.8.8"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="hsqldb" name="hsqldb">
+			<revision name="1.8.0.10" status="release" pubdate="20090520052027" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hsqldb.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="29">
+				<license name="HSQLDB License" url="http://hsqldb.org/web/hsqlLicense.html"/>
+				<metadata-artifact status="no" details="" size="2340" time="0" location="/home/wp/.ivy2/cache/hsqldb/hsqldb/ivy-1.8.0.10.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/hsqldb/hsqldb/1.8.0.10/hsqldb-1.8.0.10.pom"/>
+				<caller organisation="org.apache.hadoop" name="hadoop-core" conf="compile, runtime" rev="1.8.0.10" rev-constraint-default="1.8.0.10" rev-constraint-dynamic="1.8.0.10" callerrev="1.2.1"/>
+				<artifacts>
+					<artifact name="hsqldb" type="jar" ext="jar" status="no" details="" size="706710" time="0" location="/home/wp/.ivy2/cache/hsqldb/hsqldb/jars/hsqldb-1.8.0.10.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/hsqldb/hsqldb/1.8.0.10/hsqldb-1.8.0.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-el" name="commons-el">
+			<revision name="1.0" status="release" pubdate="20051109062050" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jakarta.apache.org/commons/el/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="28">
+				<license name="The Apache Software License, Version 2.0" url="/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="2907" time="0" location="/home/wp/.ivy2/cache/commons-el/commons-el/ivy-1.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/commons-el/commons-el/1.0/commons-el-1.0.pom"/>
+				<caller organisation="org.apache.hadoop" name="hadoop-core" conf="compile, runtime" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="1.2.1"/>
+				<artifacts>
+					<artifact name="commons-el" type="jar" ext="jar" status="no" details="" size="112341" time="0" location="/home/wp/.ivy2/cache/commons-el/commons-el/jars/commons-el-1.0.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-el/commons-el/1.0/commons-el-1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-net" name="commons-net">
+			<revision name="1.4.1" status="release" pubdate="20051221202333" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jakarta.apache.org/commons/${pom.artifactId.substring(8)}/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="26">
+				<license name="The Apache Software License, Version 2.0" url="/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="2585" time="0" location="/home/wp/.ivy2/cache/commons-net/commons-net/ivy-1.4.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/commons-net/commons-net/1.4.1/commons-net-1.4.1.pom"/>
+				<caller organisation="org.apache.hadoop" name="hadoop-core" conf="compile, runtime" rev="1.4.1" rev-constraint-default="1.4.1" rev-constraint-dynamic="1.4.1" callerrev="1.2.1"/>
+				<artifacts>
+					<artifact name="commons-net" type="jar" ext="jar" status="no" details="" size="180792" time="0" location="/home/wp/.ivy2/cache/commons-net/commons-net/jars/commons-net-1.4.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-net/commons-net/1.4.1/commons-net-1.4.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="oro" name="oro">
+			<revision name="2.0.8" status="release" pubdate="20051109062901" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="27">
+				<metadata-artifact status="no" details="" size="2170" time="0" location="/home/wp/.ivy2/cache/oro/oro/ivy-2.0.8.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/oro/oro/2.0.8/oro-2.0.8.pom"/>
+				<caller organisation="org.apache.hadoop" name="hadoop-core" conf="compile, runtime" rev="2.0.8" rev-constraint-default="2.0.8" rev-constraint-dynamic="2.0.8" callerrev="1.2.1"/>
+				<caller organisation="commons-net" name="commons-net" conf="compile, runtime" rev="2.0.8" rev-constraint-default="2.0.8" rev-constraint-dynamic="2.0.8" callerrev="1.4.1"/>
+				<artifacts>
+					<artifact name="oro" type="jar" ext="jar" status="no" details="" size="65261" time="0" location="/home/wp/.ivy2/cache/oro/oro/jars/oro-2.0.8.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/oro/oro/2.0.8/oro-2.0.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-configuration" name="commons-configuration">
+			<revision name="1.6" status="release" pubdate="20090205034444" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/${pom.artifactId.substring(8)}/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="19">
+				<license name="The Apache Software License, Version 2.0" url="/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="5546" time="0" location="/home/wp/.ivy2/cache/commons-configuration/commons-configuration/ivy-1.6.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/commons-configuration/commons-configuration/1.6/commons-configuration-1.6.pom"/>
+				<caller organisation="org.apache.hadoop" name="hadoop-core" conf="compile, runtime" rev="1.6" rev-constraint-default="1.6" rev-constraint-dynamic="1.6" callerrev="1.2.1"/>
+				<artifacts>
+					<artifact name="commons-configuration" type="jar" ext="jar" status="no" details="" size="298829" time="0" location="/home/wp/.ivy2/cache/commons-configuration/commons-configuration/jars/commons-configuration-1.6.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-configuration/commons-configuration/1.6/commons-configuration-1.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-beanutils" name="commons-beanutils-core">
+			<revision name="1.8.0" status="release" pubdate="20080901021344" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/beanutils/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="25">
+				<metadata-artifact status="no" details="" size="2550" time="0" location="/home/wp/.ivy2/cache/commons-beanutils/commons-beanutils-core/ivy-1.8.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/commons-beanutils/commons-beanutils-core/1.8.0/commons-beanutils-core-1.8.0.pom"/>
+				<caller organisation="commons-configuration" name="commons-configuration" conf="compile, runtime" rev="1.8.0" rev-constraint-default="1.8.0" rev-constraint-dynamic="1.8.0" callerrev="1.6"/>
+				<artifacts>
+					<artifact name="commons-beanutils-core" type="jar" ext="jar" status="no" details="" size="206035" time="0" location="/home/wp/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-beanutils/commons-beanutils-core/1.8.0/commons-beanutils-core-1.8.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-digester" name="commons-digester">
+			<revision name="1.8" status="release" pubdate="20061204023311" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jakarta.apache.org/commons/digester/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="23">
+				<license name="The Apache Software License, Version 2.0" url="/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="3201" time="0" location="/home/wp/.ivy2/cache/commons-digester/commons-digester/ivy-1.8.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/commons-digester/commons-digester/1.8/commons-digester-1.8.pom"/>
+				<caller organisation="commons-configuration" name="commons-configuration" conf="compile, runtime" rev="1.8" rev-constraint-default="1.8" rev-constraint-dynamic="1.8" callerrev="1.6"/>
+				<artifacts>
+					<artifact name="commons-digester" type="jar" ext="jar" status="no" details="" size="143602" time="0" location="/home/wp/.ivy2/cache/commons-digester/commons-digester/jars/commons-digester-1.8.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-digester/commons-digester/1.8/commons-digester-1.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-beanutils" name="commons-beanutils">
+			<revision name="1.7.0" status="release" pubdate="20051109062021" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="24">
+				<metadata-artifact status="no" details="" size="2388" time="0" location="/home/wp/.ivy2/cache/commons-beanutils/commons-beanutils/ivy-1.7.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.pom"/>
+				<caller organisation="commons-digester" name="commons-digester" conf="compile, runtime" rev="1.7.0" rev-constraint-default="1.7.0" rev-constraint-dynamic="1.7.0" callerrev="1.8"/>
+				<artifacts>
+					<artifact name="commons-beanutils" type="jar" ext="jar" status="no" details="" size="188671" time="0" location="/home/wp/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-logging" name="commons-logging">
+			<revision name="1.1.1" status="release" pubdate="20071127042410" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/logging" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="22">
+				<metadata-artifact status="no" details="" size="3941" time="0" location="/home/wp/.ivy2/cache/commons-logging/commons-logging/ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.pom"/>
+				<caller organisation="commons-el" name="commons-el" conf="compile, runtime" rev="1.0.3" rev-constraint-default="1.0.3" rev-constraint-dynamic="1.0.3" callerrev="1.0"/>
+				<caller organisation="commons-beanutils" name="commons-beanutils-core" conf="compile, runtime" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="1.8.0"/>
+				<caller organisation="commons-beanutils" name="commons-beanutils" conf="compile, runtime" rev="1.0.3" rev-constraint-default="1.0.3" rev-constraint-dynamic="1.0.3" callerrev="1.7.0"/>
+				<caller organisation="commons-configuration" name="commons-configuration" conf="compile, runtime" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="1.6"/>
+				<caller organisation="commons-digester" name="commons-digester" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.8"/>
+				<artifacts>
+					<artifact name="commons-logging" type="jar" ext="jar" status="no" details="" size="60686" time="0" location="/home/wp/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.1" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="-1">
+				<evicted-by rev="1.1.1"/>
+				<caller organisation="commons-beanutils" name="commons-beanutils" conf="compile, runtime" rev="1.0.3" rev-constraint-default="1.0.3" rev-constraint-dynamic="1.0.3" callerrev="1.7.0"/>
+				<caller organisation="commons-digester" name="commons-digester" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.8"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="1.0.3" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="-1">
+				<evicted-by rev="1.1.1"/>
+				<caller organisation="commons-el" name="commons-el" conf="compile, runtime" rev="1.0.3" rev-constraint-default="1.0.3" rev-constraint-dynamic="1.0.3" callerrev="1.0"/>
+				<caller organisation="commons-beanutils" name="commons-beanutils" conf="compile, runtime" rev="1.0.3" rev-constraint-default="1.0.3" rev-constraint-dynamic="1.0.3" callerrev="1.7.0"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-lang" name="commons-lang">
+			<revision name="2.4" status="release" pubdate="20080319134228" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/lang/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="21">
+				<metadata-artifact status="no" details="" size="4638" time="0" location="/home/wp/.ivy2/cache/commons-lang/commons-lang/ivy-2.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/commons-lang/commons-lang/2.4/commons-lang-2.4.pom"/>
+				<caller organisation="commons-configuration" name="commons-configuration" conf="compile, runtime" rev="2.4" rev-constraint-default="2.4" rev-constraint-dynamic="2.4" callerrev="1.6"/>
+				<artifacts>
+					<artifact name="commons-lang" type="jar" ext="jar" status="no" details="" size="261809" time="0" location="/home/wp/.ivy2/cache/commons-lang/commons-lang/jars/commons-lang-2.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-lang/commons-lang/2.4/commons-lang-2.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-collections" name="commons-collections">
+			<revision name="3.2.1" status="release" pubdate="20080415090924" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/collections/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="20">
+				<metadata-artifact status="no" details="" size="4584" time="0" location="/home/wp/.ivy2/cache/commons-collections/commons-collections/ivy-3.2.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.pom"/>
+				<caller organisation="commons-configuration" name="commons-configuration" conf="compile, runtime" rev="3.2.1" rev-constraint-default="3.2.1" rev-constraint-dynamic="3.2.1" callerrev="1.6"/>
+				<artifacts>
+					<artifact name="commons-collections" type="jar" ext="jar" status="no" details="" size="575389" time="0" location="/home/wp/.ivy2/cache/commons-collections/commons-collections/jars/commons-collections-3.2.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-math">
+			<revision name="2.1" status="release" pubdate="20100328104801" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/math/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="18">
+				<metadata-artifact status="no" details="" size="5887" time="0" location="/home/wp/.ivy2/cache/org.apache.commons/commons-math/ivy-2.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/commons/commons-math/2.1/commons-math-2.1.pom"/>
+				<caller organisation="org.apache.hadoop" name="hadoop-core" conf="compile, runtime" rev="2.1" rev-constraint-default="2.1" rev-constraint-dynamic="2.1" callerrev="1.2.1"/>
+				<artifacts>
+					<artifact name="commons-math" type="jar" ext="jar" status="no" details="" size="832410" time="0" location="/home/wp/.ivy2/cache/org.apache.commons/commons-math/jars/commons-math-2.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/commons/commons-math/2.1/commons-math-2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-codec" name="commons-codec">
+			<revision name="1.4" status="release" pubdate="20090810052217" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/codec/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="17">
+				<metadata-artifact status="no" details="" size="4984" time="0" location="/home/wp/.ivy2/cache/commons-codec/commons-codec/ivy-1.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/commons-codec/commons-codec/1.4/commons-codec-1.4.pom"/>
+				<caller organisation="org.apache.hadoop" name="hadoop-core" conf="compile, runtime" rev="1.4" rev-constraint-default="1.4" rev-constraint-dynamic="1.4" callerrev="1.2.1"/>
+				<artifacts>
+					<artifact name="commons-codec" type="jar" ext="jar" status="no" details="" size="58160" time="0" location="/home/wp/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-codec/commons-codec/1.4/commons-codec-1.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-io" name="commons-io">
+			<revision name="2.1" status="release" pubdate="20111004053236" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/io/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="16">
+				<metadata-artifact status="no" details="" size="7649" time="0" location="/home/wp/.ivy2/cache/commons-io/commons-io/ivy-2.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/commons-io/commons-io/2.1/commons-io-2.1.pom"/>
+				<caller organisation="org.apache.hadoop" name="hadoop-core" conf="compile, runtime" rev="2.1" rev-constraint-default="2.1" rev-constraint-dynamic="2.1" callerrev="1.2.1"/>
+				<artifacts>
+					<artifact name="commons-io" type="jar" ext="jar" status="no" details="" size="163151" time="0" location="/home/wp/.ivy2/cache/commons-io/commons-io/jars/commons-io-2.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-io/commons-io/2.1/commons-io-2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.sun.jersey" name="jersey-server">
+			<revision name="1.8" status="release" pubdate="20110624203452" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="14">
+				<metadata-artifact status="no" details="" size="5893" time="0" location="/home/wp/.ivy2/cache/com.sun.jersey/jersey-server/ivy-1.8.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/sun/jersey/jersey-server/1.8/jersey-server-1.8.pom"/>
+				<caller organisation="org.apache.hadoop" name="hadoop-core" conf="compile, runtime" rev="1.8" rev-constraint-default="1.8" rev-constraint-dynamic="1.8" callerrev="1.2.1"/>
+				<artifacts>
+					<artifact name="jersey-server" type="bundle" ext="jar" status="no" details="" size="694352" time="0" location="/home/wp/.ivy2/cache/com.sun.jersey/jersey-server/bundles/jersey-server-1.8.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/sun/jersey/jersey-server/1.8/jersey-server-1.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="asm" name="asm">
+			<revision name="3.1" status="release" pubdate="20080120183126" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="15">
+				<metadata-artifact status="no" details="" size="2800" time="0" location="/home/wp/.ivy2/cache/asm/asm/ivy-3.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/asm/asm/3.1/asm-3.1.pom"/>
+				<caller organisation="com.sun.jersey" name="jersey-server" conf="compile, runtime" rev="3.1" rev-constraint-default="3.1" rev-constraint-dynamic="3.1" callerrev="1.8"/>
+				<artifacts>
+					<artifact name="asm" type="jar" ext="jar" status="no" details="" size="43033" time="0" location="/home/wp/.ivy2/cache/asm/asm/jars/asm-3.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/asm/asm/3.1/asm-3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.sun.jersey" name="jersey-json">
+			<revision name="1.8" status="release" pubdate="20110624203453" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="5">
+				<metadata-artifact status="no" details="" size="5423" time="0" location="/home/wp/.ivy2/cache/com.sun.jersey/jersey-json/ivy-1.8.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/sun/jersey/jersey-json/1.8/jersey-json-1.8.pom"/>
+				<caller organisation="org.apache.hadoop" name="hadoop-core" conf="compile, runtime" rev="1.8" rev-constraint-default="1.8" rev-constraint-dynamic="1.8" callerrev="1.2.1"/>
+				<artifacts>
+					<artifact name="jersey-json" type="bundle" ext="jar" status="no" details="" size="147933" time="0" location="/home/wp/.ivy2/cache/com.sun.jersey/jersey-json/bundles/jersey-json-1.8.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/sun/jersey/jersey-json/1.8/jersey-json-1.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.jackson" name="jackson-xc">
+			<revision name="1.7.1" status="release" pubdate="20110113124323" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jackson.codehaus.org" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="13">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<license name="GNU Lesser General Public License (LGPL), Version 2.1" url="http://www.fsf.org/licensing/licenses/lgpl.txt"/>
+				<metadata-artifact status="no" details="" size="2932" time="0" location="/home/wp/.ivy2/cache/org.codehaus.jackson/jackson-xc/ivy-1.7.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-xc/1.7.1/jackson-xc-1.7.1.pom"/>
+				<caller organisation="com.sun.jersey" name="jersey-json" conf="compile, runtime" rev="1.7.1" rev-constraint-default="1.7.1" rev-constraint-dynamic="1.7.1" callerrev="1.8"/>
+				<artifacts>
+					<artifact name="jackson-xc" type="jar" ext="jar" status="no" details="" size="31723" time="0" location="/home/wp/.ivy2/cache/org.codehaus.jackson/jackson-xc/jars/jackson-xc-1.7.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-xc/1.7.1/jackson-xc-1.7.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.jackson" name="jackson-jaxrs">
+			<revision name="1.7.1" status="release" pubdate="20110113124314" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jackson.codehaus.org" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="12">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<license name="GNU Lesser General Public License (LGPL), Version 2.1" url="http://www.fsf.org/licensing/licenses/lgpl.txt"/>
+				<metadata-artifact status="no" details="" size="2934" time="0" location="/home/wp/.ivy2/cache/org.codehaus.jackson/jackson-jaxrs/ivy-1.7.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-jaxrs/1.7.1/jackson-jaxrs-1.7.1.pom"/>
+				<caller organisation="com.sun.jersey" name="jersey-json" conf="compile, runtime" rev="1.7.1" rev-constraint-default="1.7.1" rev-constraint-dynamic="1.7.1" callerrev="1.8"/>
+				<artifacts>
+					<artifact name="jackson-jaxrs" type="jar" ext="jar" status="no" details="" size="17820" time="0" location="/home/wp/.ivy2/cache/org.codehaus.jackson/jackson-jaxrs/jars/jackson-jaxrs-1.7.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-jaxrs/1.7.1/jackson-jaxrs-1.7.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.sun.xml.bind" name="jaxb-impl">
+			<revision name="2.2.3-1" status="release" pubdate="20110118183154" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jaxb.java.net/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="8">
+				<license name="CDDL 1.1" url="https://glassfish.java.net/public/CDDL+GPL_1_1.html"/>
+				<license name="GPL2 w/ CPE" url="https://glassfish.java.net/public/CDDL+GPL_1_1.html"/>
+				<metadata-artifact status="no" details="" size="2734" time="0" location="/home/wp/.ivy2/cache/com.sun.xml.bind/jaxb-impl/ivy-2.2.3-1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-impl/2.2.3-1/jaxb-impl-2.2.3-1.pom"/>
+				<caller organisation="com.sun.jersey" name="jersey-json" conf="compile, runtime" rev="2.2.3-1" rev-constraint-default="2.2.3-1" rev-constraint-dynamic="2.2.3-1" callerrev="1.8"/>
+				<artifacts>
+					<artifact name="jaxb-impl" type="jar" ext="jar" status="no" details="" size="890168" time="0" location="/home/wp/.ivy2/cache/com.sun.xml.bind/jaxb-impl/jars/jaxb-impl-2.2.3-1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-impl/2.2.3-1/jaxb-impl-2.2.3-1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.xml.bind" name="jaxb-api">
+			<revision name="2.2.2" status="release" pubdate="20101213114445" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://jaxb.dev.java.net/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="9">
+				<license name="CDDL 1.1" url="https://glassfish.dev.java.net/public/CDDL+GPL_1_1.html"/>
+				<license name="GPL2 w/ CPE" url="https://glassfish.dev.java.net/public/CDDL+GPL_1_1.html"/>
+				<metadata-artifact status="no" details="" size="2859" time="0" location="/home/wp/.ivy2/cache/javax.xml.bind/jaxb-api/ivy-2.2.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/javax/xml/bind/jaxb-api/2.2.2/jaxb-api-2.2.2.pom"/>
+				<caller organisation="com.sun.xml.bind" name="jaxb-impl" conf="compile, runtime" rev="2.2.2" rev-constraint-default="2.2.2" rev-constraint-dynamic="2.2.2" callerrev="2.2.3-1"/>
+				<artifacts>
+					<artifact name="jaxb-api" type="jar" ext="jar" status="no" details="" size="105134" time="0" location="/home/wp/.ivy2/cache/javax.xml.bind/jaxb-api/jars/jaxb-api-2.2.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/javax/xml/bind/jaxb-api/2.2.2/jaxb-api-2.2.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.activation" name="activation">
+			<revision name="1.1" status="release" pubdate="20060503074829" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://java.sun.com/products/javabeans/jaf/index.jsp" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="11">
+				<license name="Common Development and Distribution License (CDDL) v1.0" url="https://glassfish.dev.java.net/public/CDDLv1.0.html"/>
+				<metadata-artifact status="no" details="" size="2718" time="0" location="/home/wp/.ivy2/cache/javax.activation/activation/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/javax/activation/activation/1.1/activation-1.1.pom"/>
+				<caller organisation="javax.xml.bind" name="jaxb-api" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="2.2.2"/>
+				<artifacts>
+					<artifact name="activation" type="jar" ext="jar" status="no" details="" size="62983" time="0" location="/home/wp/.ivy2/cache/javax.activation/activation/jars/activation-1.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/javax/activation/activation/1.1/activation-1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.xml.stream" name="stax-api">
+			<revision name="1.0-2" status="release" pubdate="20081005015903" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="10">
+				<license name="GNU General Public Library" url="http://www.gnu.org/licenses/gpl.txt"/>
+				<license name="COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL) Version 1.0" url="http://www.sun.com/cddl/cddl.html"/>
+				<metadata-artifact status="no" details="" size="2527" time="0" location="/home/wp/.ivy2/cache/javax.xml.stream/stax-api/ivy-1.0-2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.pom"/>
+				<caller organisation="javax.xml.bind" name="jaxb-api" conf="compile, runtime" rev="1.0-2" rev-constraint-default="1.0-2" rev-constraint-dynamic="1.0-2" callerrev="2.2.2"/>
+				<artifacts>
+					<artifact name="stax-api" type="jar" ext="jar" status="no" details="" size="23346" time="0" location="/home/wp/.ivy2/cache/javax.xml.stream/stax-api/jars/stax-api-1.0-2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.jettison" name="jettison">
+			<revision name="1.1" status="release" pubdate="20090421005050" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="6">
+				<metadata-artifact status="no" details="" size="2727" time="0" location="/home/wp/.ivy2/cache/org.codehaus.jettison/jettison/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/codehaus/jettison/jettison/1.1/jettison-1.1.pom"/>
+				<caller organisation="com.sun.jersey" name="jersey-json" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.8"/>
+				<artifacts>
+					<artifact name="jettison" type="bundle" ext="jar" status="no" details="" size="67758" time="0" location="/home/wp/.ivy2/cache/org.codehaus.jettison/jettison/bundles/jettison-1.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/codehaus/jettison/jettison/1.1/jettison-1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="stax" name="stax-api">
+			<revision name="1.0.1" status="release" pubdate="20060901013914" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://stax.codehaus.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="7">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2406" time="0" location="/home/wp/.ivy2/cache/stax/stax-api/ivy-1.0.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.pom"/>
+				<caller organisation="org.codehaus.jettison" name="jettison" conf="compile, runtime" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="1.1"/>
+				<artifacts>
+					<artifact name="stax-api" type="jar" ext="jar" status="no" details="" size="26514" time="0" location="/home/wp/.ivy2/cache/stax/stax-api/jars/stax-api-1.0.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.sun.jersey" name="jersey-core">
+			<revision name="1.8" status="release" pubdate="20110624203356" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="4">
+				<metadata-artifact status="no" details="" size="5059" time="0" location="/home/wp/.ivy2/cache/com.sun.jersey/jersey-core/ivy-1.8.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/sun/jersey/jersey-core/1.8/jersey-core-1.8.pom"/>
+				<caller organisation="org.apache.hadoop" name="hadoop-core" conf="compile, runtime" rev="1.8" rev-constraint-default="1.8" rev-constraint-dynamic="1.8" callerrev="1.2.1"/>
+				<artifacts>
+					<artifact name="jersey-core" type="bundle" ext="jar" status="no" details="" size="458233" time="0" location="/home/wp/.ivy2/cache/com.sun.jersey/jersey-core/bundles/jersey-core-1.8.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/sun/jersey/jersey-core/1.8/jersey-core-1.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="xmlenc" name="xmlenc">
+			<revision name="0.52" status="release" pubdate="20061124102444" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://xmlenc.sourceforge.net" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="3">
+				<license name="The BSD License" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="2333" time="0" location="/home/wp/.ivy2/cache/xmlenc/xmlenc/ivy-0.52.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/xmlenc/xmlenc/0.52/xmlenc-0.52.pom"/>
+				<caller organisation="org.apache.hadoop" name="hadoop-core" conf="compile, runtime" rev="0.52" rev-constraint-default="0.52" rev-constraint-dynamic="0.52" callerrev="1.2.1"/>
+				<artifacts>
+					<artifact name="xmlenc" type="jar" ext="jar" status="no" details="" size="15010" time="0" location="/home/wp/.ivy2/cache/xmlenc/xmlenc/jars/xmlenc-0.52.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/xmlenc/xmlenc/0.52/xmlenc-0.52.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.10.4" status="release" pubdate="20140319054629" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.4/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, master(*), compile(*), runtime, runtime(*), master" position="0">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
+				<metadata-artifact status="no" details="" size="2487" time="0" location="/home/wp/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.4/scala-library-2.10.4.pom"/>
+				<caller organisation="org.scalatest" name="scalatest_2.10" conf="default, compile, runtime, master" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="1.9.2"/>
+				<caller organisation="org.scalaz" name="scalaz-concurrent_2.10" conf="compile, runtime" rev="2.10.1" rev-constraint-default="2.10.1" rev-constraint-dynamic="2.10.1" callerrev="7.0.6"/>
+				<caller organisation="org.scalaj" name="scalaj-http_2.10" conf="default, compile, runtime, master" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="0.3.16"/>
+				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="2.10.4"/>
+				<caller organisation="default" name="hammal_2.10" conf="test, compile, runtime" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="1.0"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor_2.10" conf="default, compile, runtime, master" rev="2.10.2" rev-constraint-default="2.10.2" rev-constraint-dynamic="2.10.2" callerrev="2.2.3"/>
+				<caller organisation="org.scalacheck" name="scalacheck_2.10" conf="compile, runtime" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="1.11.3"/>
+				<caller organisation="org.scalaz" name="scalaz-core_2.10" conf="compile, runtime" rev="2.10.1" rev-constraint-default="2.10.1" rev-constraint-dynamic="2.10.1" callerrev="7.0.6"/>
+				<caller organisation="org.scalamacros" name="quasiquotes_2.10" conf="compile, runtime" rev="2.10.2" rev-constraint-default="2.10.2" rev-constraint-dynamic="2.10.2" callerrev="2.0.0-M7"/>
+				<caller organisation="org.scalaz" name="scalaz-effect_2.10" conf="compile, runtime" rev="2.10.1" rev-constraint-default="2.10.1" rev-constraint-dynamic="2.10.1" callerrev="7.0.6"/>
+				<caller organisation="org.scala-lang" name="scala-compiler" conf="compile, runtime" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="2.10.4"/>
+				<caller organisation="org.specs2" name="specs2_2.10" conf="default, compile, runtime, master" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="2.3.12"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="7126372" time="0" location="/home/wp/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.4.jar">
+						<origin-location is-local="false" location="UNKNOWN"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.10.0" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="-1">
+				<evicted-by rev="2.10.4"/>
+				<caller organisation="org.scalatest" name="scalatest_2.10" conf="default, compile, runtime, master" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="1.9.2"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="2.10.1" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="-1">
+				<evicted-by rev="2.10.4"/>
+				<caller organisation="org.scalaz" name="scalaz-concurrent_2.10" conf="compile, runtime" rev="2.10.1" rev-constraint-default="2.10.1" rev-constraint-dynamic="2.10.1" callerrev="7.0.6"/>
+				<caller organisation="org.scalaz" name="scalaz-core_2.10" conf="compile, runtime" rev="2.10.1" rev-constraint-default="2.10.1" rev-constraint-dynamic="2.10.1" callerrev="7.0.6"/>
+				<caller organisation="org.scalaz" name="scalaz-effect_2.10" conf="compile, runtime" rev="2.10.1" rev-constraint-default="2.10.1" rev-constraint-dynamic="2.10.1" callerrev="7.0.6"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="2.10.2" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="-1">
+				<evicted-by rev="2.10.4"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor_2.10" conf="default, compile, runtime, master" rev="2.10.2" rev-constraint-default="2.10.2" rev-constraint-dynamic="2.10.2" callerrev="2.2.3"/>
+				<caller organisation="org.scalamacros" name="quasiquotes_2.10" conf="compile, runtime" rev="2.10.2" rev-constraint-default="2.10.2" rev-constraint-dynamic="2.10.2" callerrev="2.0.0-M7"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
