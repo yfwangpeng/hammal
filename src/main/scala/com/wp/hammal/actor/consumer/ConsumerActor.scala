@@ -4,18 +4,15 @@ import akka.actor.Actor
 import com.wp.hammal.disruptor.Disruptor1
 import com.wp.hammal.plugins.writer.hdfs.HdfsWriter
 import com.wp.hammal.plugins.reader.web.SpiderData
+import com.wp.hammal.plugins.writer.Writer
 
-case class msg(y:Disruptor1,z:SpiderData)
+case class consumeRun(writer:Writer)
 class ConsumerActor extends Actor{
 def receive = {
-case msg(y,z) ⇒
-      println("starting writing '%s' in actor %s".format(msg, self.path.name))
-      println("consuming data from ringbuffer")
-      y { a =>
-          println(s"a: $a")
-          HdfsWriter.saveFile(z,a)
-        }
-        y.start()
-        context.stop(self)
+case consumeRun(writer)=>
+	writer("ok")
+	writer.shutdown
+	context.stop(self)
 }
+
 }

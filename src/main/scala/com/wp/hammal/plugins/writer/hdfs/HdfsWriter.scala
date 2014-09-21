@@ -27,5 +27,6 @@ object HdfsWriter {
     out.close()
 	fileSystem.listStatus(new Path(spiderData.toStore+netUrl.getHost())).foreach((file)=>println(file.getPath()))
   }
-
+  
 }
+

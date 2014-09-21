@@ -29,6 +29,7 @@ trait DisruptorFactory1 {
 
 package object disruptor {
   implicit def factoryBuilder1: DisruptorFactory1= factoryBuilder1Impl
+  
   def factoryBuilder1Impl: DisruptorFactory1 = {
 
     new DisruptorFactory1 {
@@ -69,6 +70,7 @@ package object disruptor {
           def start() = ldisruptor.start()
           def shutdown() = ldisruptor.shutdown()
         }
+        
         new Disruptor1Impl(ldisruptor, ringBuffer)
       }
     }

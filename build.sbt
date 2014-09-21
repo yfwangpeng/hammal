@@ -1,6 +1,6 @@
 name := "hammal"
 
-version := "1.0"
+version := "1.1"
  
 libraryDependencies++= Seq(
   "org.apache.hadoop" % "hadoop-client" % "1.2.1",
@@ -10,6 +10,9 @@ libraryDependencies++= Seq(
   "com.typesafe" % "config" % "1.0.0",
   "org.scala-lang" % "scala-reflect" % "2.10.3",
   "org.scalaj"%"scalaj-http_2.10"%"0.3.16",
-  "org.scalatest" % "scalatest_2.10" % "1.9.2"
+  "org.scalatest" % "scalatest_2.10" % "1.9.2",
+  "com.typesafe.slick" %% "slick" % "2.1.0",
+  "org.slf4j" % "slf4j-nop" % "1.6.4",
+  "mysql" % "mysql-connector-java" % "5.1.32"
 )
     
