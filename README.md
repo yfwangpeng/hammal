@@ -23,11 +23,11 @@ hammal
 		package
 
 #####例子
-详见 test/scala/example/Test.scala
-目前系统实现了 webspider read plugin, 和 hdfs writer plugin,因此例子是基于两者展开的，可以参照此定制自己的插件。 
+详见 test/scala/example/Test.scala, MysqlReaderTest.scala,
+目前已经实现了 webspider,mysql read plugin, 和 hdfs writer plugin, 可以参照此定制自己的插件。 
 
 ###roadmap
-plugin 与 framework 解耦;
-mysql,hdfs,hbase,hive,sqlserver,oracle reader plugins开发;
-mysql,hdfs,hbase,hive,sqlserver,oracle writer plugins开发;
-disruptor,akka 优化;
+plugin 与 framework 解耦<br/>
+mysql,hdfs,hbase,hive,sqlserver,oracle reader plugins开发<br/>
+mysql,hdfs,hbase,hive,sqlserver,oracle writer plugins开发<br/>
+disruptor,akka 优化<br/>
