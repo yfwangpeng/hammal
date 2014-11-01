@@ -34,10 +34,10 @@ MysqlToHbaseDemo.scala<br/>
 SpiderToHadoopDemo.scala<br/>
 
 ###roadmap
-Commits on Sep 8, 2014 <br/>
-framework and webspider reader plugin, hdfs writer plugin <br/>
-Commits on Sep 21, 2014 <br/>
-mysql reader plugin<br/>
-Commits on Nov 1, 2014 <br/>
-hbase writer plugin, data flow model <br/>
+Commits on Sep 8, 2014 
+plugin 与 framework 解耦<br/>
+mysql,hdfs,hbase,hive,sqlserver,oracle reader plugins开发<br/>
+mysql,hdfs,hbase,hive,sqlserver,oracle writer plugins开发<br/>
+disruptor,akka 优化<br/>
+Commits on Sep 21, 2014 
 

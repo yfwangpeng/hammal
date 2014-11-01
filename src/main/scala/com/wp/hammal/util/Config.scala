@@ -20,9 +20,9 @@ trait Config {
 			case ce: ConfigException => throw new ConfigException("Configuration failed to load", ce)
 		}
 
-	private val configRoot = "spider"
+//	private val configRoot = "spider"
 
-	def poolConfig(name: String) = 
+	def poolConfig(configRoot: String, name: String="properties") =
 		try {
 			appConfig.getConfig(s"${configRoot}.${name}")
 		} catch {

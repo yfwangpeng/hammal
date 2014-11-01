@@ -6,7 +6,6 @@ import scala.collection.mutable.LinkedList
 
 trait ConfigUtil extends Config {
 
-   def getConfig(name:String)=poolConfig(name)
+   def getConfig(configRoot: String,app:String)=poolConfig(configRoot,app)
 
 }
-

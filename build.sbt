@@ -13,7 +13,7 @@ libraryDependencies++= Seq(
   "org.scalatest" % "scalatest_2.10" % "1.9.2",
   "com.typesafe.slick" %% "slick" % "2.1.0",
   "org.slf4j" % "slf4j-nop" % "1.6.4",
-  "mysql" % "mysql-connector-java" % "5.1.32"
+  "mysql" % "mysql-connector-java" % "5.1.32",
     //hbase
   "org.apache.hbase" % "hbase" % "0.94.18",
   "org.apache.hadoop" % "hadoop-client" % "2.2.0"
